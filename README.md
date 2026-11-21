@@ -24,3 +24,10 @@ Copy rules for anything about money: tips are gifts to a for-profit company, nev
 - Every page carries a CSP meta tag (GitHub Pages can't set headers). `.well-known/security.txt` (renew Expires before 2027-11-21).
 - Copy must match the firmware: per-node API key, 30-minute setup window, pull-only HTTPS updates, hourly update check (disclosed in pledge 2 and privacy.html). Don't claim signed firmware or signed mesh until they ship in stable.
 - Previous live version is tagged `live-before-v4`.
+
+## v5 (2026-11-21): multi-page site
+- Pages: index, node, hub, pledges (+security), pilot (application), pilot-terms, survey, results, support (tips + waitlist), about, faq, privacy. Forum = GitHub Discussions on this repo (enabled 2026-11-21).
+- Shared `styles.css` and `site.js` (no inline script; CSP `script-src 'self'`). Settings (`waitlistAction`, `tipUrl`, `socials`) are at the top of `site.js`.
+- `results.json` drives the public results page. Update it as survey emails arrive: `{"updated", "responses", "questions":[{"label","multi","counts":{option:n}}], "quotes":[...only from people who ticked permission...], "changes":[...]}`.
+- Source and generator live in Claude's workspace build (build.py); keep orvyn-company/website in sync.
+- Previous version tagged `live-before-v5`.
