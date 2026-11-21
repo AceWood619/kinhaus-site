@@ -1,10 +1,11 @@
 # kinhaushome.com
 
-Public website for Kinhaus. Source of truth: kinhaus-company/website/index.html (copy here to publish). Hosted on GitHub Pages.
+Public website for Kinhaus, hosted on GitHub Pages. **This repo is the source of truth:** a push to `main` publishes kinhaushome.com. `kinhaus-company/website/` is a mirror kept for the record.
 
 - **This repo is public.** Keep it to public copy only: founder name, city and the company email. No personal contact details, prices, "for sale" or certification claims (the footer states products are in development and not for sale).
 - Files: `index.html` (the whole page), `img/` (product renders it uses), `CNAME` (custom domain), `.nojekyll` (serve files as-is).
-- To publish: copy `kinhaus-company/website/index.html` and `website/img/` here, check every `img/` path the page uses exists, commit to `main`.
+- To publish: edit here, check every `img/` path the page uses exists, commit to `main`. Then copy the changed files to `kinhaus-company/website/` so the mirror matches.
+- Concept images (`img/concept-*.jpg`) are blurred teasers on purpose: until IP filings are in place, show no product shape or how-it-works detail for unreleased devices (Decision Log, 2026-11-21).
 
 ## Waitlist, tip jar and social links (added 2026-11-16)
 The page works today with no accounts: the waitlist form opens an email to hello@kinhaushome.com, and the tip button stays hidden behind a "tip jar opens soon" line.

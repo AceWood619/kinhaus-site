@@ -209,6 +209,9 @@ footer small { display: block; margin-top: 14px; font-size: 12.5px; max-width: 8
 .goes { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 6px; font-size: 15px; color: var(--muted); }
 .goes li::before { content: "→ "; color: var(--teal); }
 
+.concept { aspect-ratio: 4 / 3; width: 100%; border-radius: 14px; object-fit: cover; margin-bottom: 14px; background: #0e0f11; }
+.build-note { margin-top: 18px; font: 13px var(--mono); color: var(--muted); }
+
 /* FAQ */
 .faq { margin-top: 40px; display: grid; gap: 12px; max-width: 820px; }
 .faq details { border: 1px solid var(--line); border-radius: 14px; background: var(--bg-2); padding: 0 20px; }
@@ -368,6 +371,20 @@ footer small { display: block; margin-top: 14px; font-size: 12.5px; max-width: 8
         <div class="card"><span class="chip later">Later</span><h3>Panels and more</h3><p>Wall panels and smaller sensors for halls and doors, shaped by what real homes in our pilot need.</p></div>
         <div class="card"><span class="chip later">Promise</span><h3>Built to last</h3><p>No device that bricks when a company changes its mind. Open firmware and local control are the foundation, not a feature.</p></div>
       </div>
+    </div>
+  </section>
+
+  <section id="building">
+    <div class="wrap">
+      <p class="eyebrow">On the drawing board</p>
+      <h2>What we're building next</h2>
+      <p class="lede">Beyond the Node and the Hub, these are the next devices we're working on. They're early concepts in development, so we're only showing teasers for now.</p>
+      <div class="family">
+        <div class="card"><img class="concept" src="img/concept-core.jpg" alt="Blurred teaser image of the Kinhaus Core concept" width="800" height="600" loading="lazy"><span class="chip later">Concept in development</span><h3>Kinhaus Core</h3><p>A private AI server for your home, so the smart answers come from your own hardware instead of someone else's cloud.</p></div>
+        <div class="card"><img class="concept" src="img/concept-thermostat.jpg" alt="Blurred teaser image of the Kinhaus thermostat concept" width="800" height="600" loading="lazy"><span class="chip later">Concept in development</span><h3>Kinhaus Thermostat</h3><p>Heating and cooling that pays attention to the rooms you actually use, and keeps working when the internet doesn't.</p></div>
+        <div class="card"><img class="concept" src="img/concept-speaker.jpg" alt="Blurred teaser image of the Kinhaus speaker concept" width="800" height="600" loading="lazy"><span class="chip later">Concept in development</span><h3>Kinhaus Speaker</h3><p>Room speakers for music and answers that belong to the same local system as everything else in the house.</p></div>
+      </div>
+      <p class="build-note">Concepts only: not for sale, no prices or dates. Waitlist members see them first as they firm up.</p>
     </div>
   </section>
 
