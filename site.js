@@ -4,7 +4,7 @@
   var KINHAUS = {
     waitlistAction: "",   // email-list form endpoint (add its host to form-action in each page's CSP)
     tipUrl: "https://ko-fi.com/kinhaushome", // Ko-fi tip page (set 2026-11-21)
-    socials: [],          // e.g. [{ name: "YouTube", url: "https://..." }]
+    socials: [{ name: "Follow on X: @kinhaushome", url: "https://x.com/kinhaushome" }],
     forumUrl: "https://github.com/AceWood619/kinhaus-site/discussions"
   };
   var $ = function (id) { return document.getElementById(id); };
