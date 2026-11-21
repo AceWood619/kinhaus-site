@@ -3,7 +3,7 @@
   // ---- Settings: fill these in once the accounts exist (see README.md) ----
   var KINHAUS = {
     waitlistAction: "",   // email-list form endpoint (add its host to form-action in each page's CSP)
-    tipUrl: "",           // tip page, e.g. GitHub Sponsors or Ko-fi link
+    tipUrl: "https://ko-fi.com/kinhaushome", // Ko-fi tip page (set 2026-11-21)
     socials: [],          // e.g. [{ name: "YouTube", url: "https://..." }]
     forumUrl: "https://github.com/AceWood619/kinhaus-site/discussions"
   };
