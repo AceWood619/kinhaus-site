@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'none'; form-action 'self'; connect-src 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">
+<title>Survey results · Kinhaus</title>
+<meta name="description" content="Open, live results of the Kinhaus community survey: what people want, what would stop them, and what we changed because of it.">
+<meta name="theme-color" content="#121315">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23121315'/%3E%3Cg fill='none' stroke='%232bb3a0' stroke-width='9.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 47 L50 15 L87 47 V86 H13 Z'/%3E%3Cpath d='M39 40 V74'/%3E%3Cpath d='M39 59 L62 40'/%3E%3Cpath d='M46 53 L63 74'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="canonical" href="https://kinhaushome.com/results.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kinhaushome.com/results.html">
+<meta property="og:title" content="Survey results · Kinhaus">
+<meta property="og:description" content="Open, live results of the Kinhaus community survey: what people want, what would stop them, and what we changed because of it.">
+<meta property="og:image" content="https://kinhaushome.com/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kinhaus Node render in deep charcoal beside the Kinhaus wordmark">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Kinhaus home"><svg viewBox="0 0 100 100" fill="none" stroke="var(--teal)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 47 L50 15 L87 47 V86 H13 Z"/><path d="M39 40 V74"/><path d="M39 59 L62 40"/><path d="M46 53 L63 74"/></svg><span>KINHAUS</span></a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="node.html">Node</a></li><li><a href="hub.html">Hub</a></li><li><a href="pledges.html">Pledges</a></li><li><a href="pilot.html">Pilot</a></li><li><a href="survey.html">Survey</a></li><li><a href="results.html" aria-current="page">Results</a></li><li><a href="support.html">Support</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a class="ext" href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Forum</a></li></ul></nav>
+    <a class="btn" href="support.html#waitlist">Join the waitlist</a>
+    <details class="menu"><summary aria-label="Open menu">Menu</summary><nav class="panel-nav" aria-label="Main"><a href="index.html">Home</a><a href="node.html">Node</a><a href="hub.html">Hub</a><a href="pledges.html">Pledges</a><a href="pilot.html">Pilot</a><a href="survey.html">Survey</a><a href="results.html" aria-current="page">Results</a><a href="support.html">Support</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Community forum ↗</a><a class="btn" href="support.html#waitlist">Join the waitlist</a></nav></details>
+  </div>
+</header>
+<main id="main">
+<div class="wrap page-head"><p class="eyebrow">Open results</p><h1>What people are telling us</h1><p class="lede">Every survey response is counted here. We publish the totals, the written answers people allowed us to share, and what we changed because of them.</p></div>
+  <section>
+    <div class="wrap">
+      <div class="rmeta"><span>Responses: <b id="rCount">0</b></span><span>Last updated: <b id="rUpdated">-</b></span><span>Survey: <b>v1, 8 questions</b></span></div>
+      <div class="empty" id="rEmpty" hidden><h3>No responses counted yet</h3><p>The survey opened on November 21, 2026. Be one of the first: <a href="survey.html" style="color:var(--teal)">take the 3-minute survey</a>. Totals appear here as responses come in.</p></div>
+      <p class="empty" id="rErr" hidden>Results couldn't load. Refresh the page to try again.</p>
+      <div class="rgrid" id="results"></div>
+      <div id="rQuotesWrap" hidden><h2 style="font-size:28px;margin-top:48px">In their words</h2><div class="quotes" id="rQuotes"></div></div>
+      <div id="rChangesWrap" hidden><h2 style="font-size:28px;margin-top:48px">What we changed because of you</h2><ul class="gets" id="rChanges"></ul></div>
+      <div class="method">
+        <div><h3>How we count</h3><p>Each emailed response counts once. Duplicates from the same address are merged, keeping the latest.</p></div>
+        <div><h3>What we publish</h3><p>Combined totals, plus written answers only from people who ticked the permission box. Never names or emails.</p></div>
+        <div><h3>How it's used</h3><p>To decide features, price and what to build first. Forum ideas are weighed alongside the survey.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span class="brand"><svg viewBox="0 0 100 100" fill="none" stroke="var(--teal)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:22px;height:22px"><path d="M13 47 L50 15 L87 47 V86 H13 Z"/><path d="M39 40 V74"/><path d="M39 59 L62 40"/><path d="M46 53 L63 74"/></svg><span style="font-size:15px">KINHAUS</span></span>
+      <span>© 2026 Kinhaus · Chico, California</span>
+    </div>
+    <nav class="flinks" aria-label="Footer"><a href="index.html">Home</a><a href="node.html">Node</a><a href="hub.html">Hub</a><a href="pledges.html">Pledges</a><a href="pilot.html">Pilot</a><a href="survey.html">Survey</a><a href="results.html">Results</a><a href="support.html">Support</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Forum ↗</a><a href="privacy.html">Privacy</a><a href="pilot-terms.html">Pilot terms</a><a href="pledges.html#security">Report a security problem</a></nav>
+    <small>Privacy: this website sets no cookies and uses no analytics, ads or tracking scripts. We only get what you send us, such as your email if you join the waitlist. <a href="privacy.html">Privacy and waitlist terms</a></small>
+    <small>Kinhaus products are in development and not for sale. Images are renders of prototype designs; features, specifications and appearance may change before release. Pledges apply to products once sold. Home Assistant is a trademark of its owner. NVIDIA and Jetson are trademarks of NVIDIA Corporation. Kinhaus is not affiliated with or endorsed by either. Support payments are gifts to a for-profit company and are not tax-deductible.</small>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
