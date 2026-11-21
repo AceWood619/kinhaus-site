@@ -16,3 +16,11 @@ To switch them on, edit the `KINHAUS` block near the bottom of `index.html`:
 
 Copy rules for anything about money: tips are gifts to a for-profit company, never "donations", never tax-deductible, and never buy a device, reservation, price or discount. No pre-orders, prices or "buy" buttons.
 `img/og-card.jpg` is the preview image shown when the link is shared on social media.
+
+## v4 (2026-11-21): "Home AI you own"
+- New sections: what-if failure test, pillars, Hub (in design), four pledges, security, pilot home application (`#pilot`), merged FAQ. Waitlist, tip jar and privacy page kept.
+- `pilot.html`: pilot program and opt-in beta data terms. Applying is non-binding; selected homes sign a separate Pilot Agreement (to be drafted and reviewed by counsel) before any device ships.
+- Both forms open a pre-filled email to hello@ (no backend). If a form service is added, set `waitlistAction` and add its host to `form-action` in the page's Content-Security-Policy meta.
+- Every page carries a CSP meta tag (GitHub Pages can't set headers). `.well-known/security.txt` (renew Expires before 2027-11-21).
+- Copy must match the firmware: per-node API key, 30-minute setup window, pull-only HTTPS updates, hourly update check (disclosed in pledge 2 and privacy.html). Don't claim signed firmware or signed mesh until they ship in stable.
+- Previous live version is tagged `live-before-v4`.
