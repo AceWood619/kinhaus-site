@@ -1,0 +1,5 @@
+Contact: mailto:hello@kinhaushome.com
+Expires: 2027-11-21T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://kinhaushome.com/.well-known/security.txt
+Policy: https://kinhaushome.com/#security

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'none'; form-action 'self'; connect-src 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">
+<title>Hub · Kinhaus</title>
+<meta name="description" content="The Kinhaus Hub (in design): Home Assistant and a private AI assistant running open models on an NVIDIA Jetson computer inside your home.">
+<meta name="theme-color" content="#121315">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23121315'/%3E%3Cg fill='none' stroke='%232bb3a0' stroke-width='9.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 47 L50 15 L87 47 V86 H13 Z'/%3E%3Cpath d='M39 40 V74'/%3E%3Cpath d='M39 59 L62 40'/%3E%3Cpath d='M46 53 L63 74'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="canonical" href="https://kinhaushome.com/hub.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kinhaushome.com/hub.html">
+<meta property="og:title" content="Hub · Kinhaus">
+<meta property="og:description" content="The Kinhaus Hub (in design): Home Assistant and a private AI assistant running open models on an NVIDIA Jetson computer inside your home.">
+<meta property="og:image" content="https://kinhaushome.com/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kinhaus Node render in deep charcoal beside the Kinhaus wordmark">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Kinhaus home"><svg viewBox="0 0 100 100" fill="none" stroke="var(--teal)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 47 L50 15 L87 47 V86 H13 Z"/><path d="M39 40 V74"/><path d="M39 59 L62 40"/><path d="M46 53 L63 74"/></svg><span>KINHAUS</span></a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="node.html">Node</a></li><li><a href="hub.html" aria-current="page">Hub</a></li><li><a href="pledges.html">Pledges</a></li><li><a href="pilot.html">Pilot</a></li><li><a href="survey.html">Survey</a></li><li><a href="results.html">Results</a></li><li><a href="support.html">Support</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a class="ext" href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Forum</a></li></ul></nav>
+    <a class="btn" href="support.html#waitlist">Join the waitlist</a>
+    <details class="menu"><summary aria-label="Open menu">Menu</summary><nav class="panel-nav" aria-label="Main"><a href="index.html">Home</a><a href="node.html">Node</a><a href="hub.html" aria-current="page">Hub</a><a href="pledges.html">Pledges</a><a href="pilot.html">Pilot</a><a href="survey.html">Survey</a><a href="results.html">Results</a><a href="support.html">Support</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Community forum ↗</a><a class="btn" href="support.html#waitlist">Join the waitlist</a></nav></details>
+  </div>
+</header>
+<main id="main">
+<section id="hub" style="border-top:0">
+    <div class="wrap">
+      <p class="eyebrow">Home AI computer · <span class="chip next">In design</span></p>
+      <h1 style="font-size:clamp(38px,5.6vw,66px);font-weight:900;letter-spacing:-0.04em;margin-block:14px 16px">The Kinhaus Hub</h1>
+      <p class="lede">The home's own brain. Home Assistant and a private AI assistant on hardware you own, so even the smart answers never leave the house.</p>
+      <div class="hub">
+        <figure>
+          <img src="img/hub-front.webp" alt="Kinhaus Hub concept render: a dark desk tower with a glowing halo frame, a round camera window and a hexagon speaker grille" width="943" height="1200" loading="lazy">
+          <figcaption>Concept render. Design will change.</figcaption>
+        </figure>
+        <div>
+          <ul class="spec-list">
+            <li><span>AI</span>An NVIDIA Jetson AI computer inside, sized to run open language and voice models with no cloud</li>
+            <li><span>Model choice</span>Not tied to one AI company. Swap in a newer open model whenever a better one appears</li>
+            <li><span>Smart-home radios</span>Thread and Zigbee built in, with room to add more</li>
+            <li><span>Voice</span>Far-field microphones, a speaker and a hardware mute that cuts the mics</li>
+            <li><span>Camera</span>Optional video calls on your TV, with a physical shutter and power cut-off for privacy</li>
+            <li><span>Sensing</span>Air quality, climate, light and presence for the room it sits in</li>
+          </ul>
+          <p class="fine">The Hub is in circuit design and not for sale. We will publish measured power use before launch.</p>
+        </div>
+      </div>
+    </div>
+  </section><section>
+    <div class="wrap">
+      <p class="eyebrow">Why a hub</p>
+      <h2>Smart answers that never leave the house</h2>
+      <div class="cols">
+        <div><h3>No cloud AI required</h3><p>Questions, routines and voice commands are understood on the Hub itself. Nothing is sent to an AI company to work.</p></div>
+        <div><h3>Not tied to one model</h3><p>AI models improve every few months. The Hub is built to run whichever open model is best, so it gets better without a new subscription.</p></div>
+        <div><h3>Honest about power</h3><p>A home AI computer uses electricity. We'll publish the Hub's measured idle and peak power before launch.</p></div>
+      </div>
+      <a class="morelink" href="survey.html">Tell us what you'd want the Hub to do →</a>
+    </div>
+  </section><section id="apps">
+    <div class="wrap">
+      <p class="eyebrow">Planned · Optional apps</p>
+      <h2>Bring another AI if you want one. Never required.</h2>
+      <p class="lede">The Hub's own private assistant stays the default. We're designing an optional app shelf so owners can add assistants from other AI companies, such as Grok or Claude, where those companies offer a way to connect. Nothing is installed until you choose it.</p>
+      <div class="cols">
+        <div><h3>Off until you add it</h3><p>No outside AI app comes installed or switched on. You pick it, you install it, and you can remove it any time.</p></div>
+        <div><h3>Your account, clearly labeled</h3><p>You sign in with your own account with that company, under its terms and privacy policy. The Hub marks every cloud app and shows when one is listening. Kinhaus doesn't see those conversations or take a cut.</p></div>
+        <div><h3>You set what it can see</h3><p>Each app gets only the rooms, devices and sensors you allow. Cameras and presence data stay off-limits unless you turn them on for that app.</p></div>
+      </div>
+      <p class="fine">Planned feature, still in design. Grok and Claude are trademarks of their owners. Kinhaus isn't partnered with or endorsed by xAI or Anthropic, and which apps can connect depends on what each company offers.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span class="brand"><svg viewBox="0 0 100 100" fill="none" stroke="var(--teal)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:22px;height:22px"><path d="M13 47 L50 15 L87 47 V86 H13 Z"/><path d="M39 40 V74"/><path d="M39 59 L62 40"/><path d="M46 53 L63 74"/></svg><span style="font-size:15px">KINHAUS</span></span>
+      <span>© 2026 Kinhaus · Chico, California</span>
+    </div>
+    <nav class="flinks" aria-label="Footer"><a href="index.html">Home</a><a href="node.html">Node</a><a href="hub.html">Hub</a><a href="pledges.html">Pledges</a><a href="pilot.html">Pilot</a><a href="survey.html">Survey</a><a href="results.html">Results</a><a href="support.html">Support</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Forum ↗</a><a href="https://x.com/kinhaushome" target="_blank" rel="noopener">X @kinhaushome ↗</a><a href="privacy.html">Privacy</a><a href="pilot-terms.html">Pilot terms</a><a href="pledges.html#security">Report a security problem</a></nav>
+    <small>Privacy: this website sets no cookies and uses no analytics, ads or tracking scripts. We only get what you send us, such as your email if you join the waitlist. <a href="privacy.html">Privacy and waitlist terms</a></small>
+    <small>Kinhaus products are in development and not for sale. Images are renders of prototype designs; features, specifications and appearance may change before release. Pledges apply to products once sold. Home Assistant is a trademark of its owner. NVIDIA and Jetson are trademarks of NVIDIA Corporation. Kinhaus is not affiliated with or endorsed by either. Support payments are gifts to a for-profit company and are not tax-deductible.</small>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

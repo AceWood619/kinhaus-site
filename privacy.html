@@ -1,6 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
 <title>Privacy and waitlist terms · Kinhaus</title>
-<meta name="description" content="How Kinhaus handles your email and data on kinhaushome.com, and the terms of the Kinhaus waitlist.">
+<meta name="description" content="How Kinhaus handles your email and data on kinhaushome.com, the terms of the Kinhaus waitlist, and what Kinhaus devices send.">
 <meta name="theme-color" content="#121315">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23121315'/%3E%3Cg fill='none' stroke='%232bb3a0' stroke-width='9.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 47 L50 15 L87 47 V86 H13 Z'/%3E%3Cpath d='M39 40 V74'/%3E%3Cpath d='M39 59 L62 40'/%3E%3Cpath d='M46 53 L63 74'/%3E%3C/g%3E%3C/svg%3E">
 <style>
@@ -8,7 +10,7 @@
 @media (prefers-color-scheme: light) { :root { --bg:#f2f0eb; --bg-2:#fbfaf7; --line:#dcd8cf; --fg:#16181b; --muted:#5d6066; --teal:#0f7a6c; color-scheme: light; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.65 "Inter", "Segoe UI", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px max(20px, env(safe-area-inset-right, 0px)) 64px max(20px, env(safe-area-inset-left, 0px)); }
 a { color: var(--teal); }
 h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.1; letter-spacing: -0.03em; margin: 28px 0 8px; }
 h2 { font-size: 21px; letter-spacing: -0.01em; margin: 34px 0 6px; }
@@ -20,34 +22,38 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px;
 </style></head><body><div class="wrap">
 <a class="back" href="./">← Back to Kinhaus</a>
 <h1>Privacy and waitlist terms</h1>
-<p class="date">Last updated: November 2026</p>
+<p class="date">Last updated: November 21, 2026</p>
 
-<p>Kinhaus is run by Mason Wyman in Chico, California. This page explains what we collect on kinhaushome.com, how we use it, and what joining the waitlist means.</p>
+<p>Kinhaus is run by Mason Wyman in Chico, California. This page explains what we collect on kinhaushome.com, how we use it, what joining the waitlist means, and what Kinhaus devices send.</p>
 
 <h2>What we collect</h2>
-<p>If you join the waitlist: your email address and, only if you choose to answer, which devices interest you and whether you run Home Assistant. If you email us, we have whatever you put in that email.</p>
-<p>We don't use advertising trackers or analytics. The site is hosted on GitHub Pages, which may log basic technical data (such as IP address and browser type) to keep the site running. The page loads its fonts from Google Fonts, so your browser contacts Google's servers when it opens the site.</p>
+<p>If you join the waitlist: your email address and, only if you choose to answer, which devices interest you and whether you run Home Assistant.</p>
+<p>If you apply to be a pilot home: your name, email, city and state, the kind of home you have, how many rooms you'd cover, whether you run Home Assistant, anything you write in the application, and whether you opted in to the beta data program.</p>
+<p>If you email us, we have whatever you put in that email.</p>
+<p>The website sets no cookies and uses no advertising trackers or analytics. It is hosted on GitHub Pages, which may log basic technical data (such as IP address and browser type) to keep the site running. The page loads its fonts from Google Fonts, so your browser contacts Google's servers when it opens the site.</p>
 
 <h2>Why we use it</h2>
-<p>To send you the Kinhaus updates you asked for, and to understand which devices people want. That's all.</p>
+<p>To send you the Kinhaus updates you asked for, to run the pilot program and contact applicants, and to understand which devices people want. That's all.</p>
 
 <h2>What we don't do</h2>
 <p>We don't sell or share your personal information, and we don't use it for targeted advertising.</p>
 
 <h2>Who handles it for us</h2>
-<p>Our email-list provider stores the waitlist and sends updates, and GitHub hosts the website. They may use your data only to provide that service to us. If you send a tip through a tip-jar service, that service handles the payment; we never see your card details.</p>
+<p>Our email provider stores waitlist sign-ups, applications and messages and sends updates, and GitHub hosts the website. They may use your data only to provide that service to us. If you send a tip through a tip-jar service, that service handles the payment; we never see your card details.</p>
 
 <h2>How long we keep it</h2>
-<p>Until you unsubscribe or ask us to delete it, or until we stop sending updates.</p>
+<p>Waitlist details: until you unsubscribe or ask us to delete them, or until we stop sending updates. Pilot applications: until the pilot ends, then deleted unless you're a pilot home or ask us to keep you in mind. Beta data: up to 12 months, as described in the <a href="pilot-terms.html#beta-data">beta data terms</a>.</p>
 
 <h2>Your choices</h2>
-<p>Every update email has an unsubscribe link. You can also ask us what we hold about you, to correct it, or to delete it, by writing to <a href="mailto:hello@kinhaushome.com">hello@kinhaushome.com</a>. We won't treat you differently for asking. California residents may have additional rights under California privacy law where it applies.</p>
+<p>Every update email has an unsubscribe link. You can also ask us what we hold about you, to correct it, or to delete it, by writing to hello@kinhaushome.com. We won't treat you differently for asking. California residents may have additional rights under California privacy law where it applies.</p>
 
 <h2>Children</h2>
-<p>The waitlist is for adults. We don't knowingly collect information from children under 18.</p>
+<p>The waitlist and the pilot are for adults. We don't knowingly collect information from children under 18.</p>
 
 <h2>Our devices</h2>
-<p>Kinhaus devices are designed to work without a Kinhaus account or cloud. This page covers the website and the waitlist. What a device senses stays on your own network and is governed by your own Home Assistant setup.</p>
+<p>Kinhaus devices work without a Kinhaus account or cloud. What a device senses stays on your own network and is governed by your own Home Assistant setup.</p>
+<p><strong>Update checks.</strong> Devices check our public firmware page (hosted on GitHub) about once an hour for new versions and download updates from it. The request contains no personal information or sensor data, but like any web request it shows your home's IP address to GitHub. Automatic installs are on by default and can be switched off in Home Assistant.</p>
+<p><strong>Beta data program.</strong> Pilot homes can choose to send device health and usage statistics to Kinhaus. It is off unless you opt in, never includes audio or video, and you can leave at any time. Details are in the <a href="pilot-terms.html#beta-data">beta data terms</a>.</p>
 
 <h2>Waitlist terms</h2>
 <ol>
@@ -57,11 +63,14 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px;
   <li>We may close or change the waitlist at any time.</li>
 </ol>
 
+<h2>Pilot program</h2>
+<p>Applying to the pilot doesn't bind you or us. Selected homes sign a separate Pilot Agreement before any device is sent. See the <a href="pilot-terms.html">pilot program and beta data terms</a>.</p>
+
 <h2>Tips</h2>
 <p>Kinhaus is a for-profit company in development, not a charity. A tip is a gift to help build it. It isn't tax-deductible, and it doesn't buy a device, a reservation or a discount.</p>
 
 <h2>Changes</h2>
-<p>If this page changes, we'll post the new version here with a new date.</p>
+<p>If this page changes, we'll post the new version here with a new date. We won't start collecting a new kind of data from devices without asking first.</p>
 
-<footer>Kinhaus · Chico, California · <a href="mailto:hello@kinhaushome.com">hello@kinhaushome.com</a></footer>
+<footer>Kinhaus · Chico, California · hello@kinhaushome.com</footer>
 </div></body></html>

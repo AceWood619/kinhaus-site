@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'none'; form-action 'self'; connect-src 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">
+<title>Node · Kinhaus</title>
+<meta name="description" content="The Kinhaus Node: a room device with mmWave presence, climate sensing, a halo light, battery backup and optional local voice. Works with Home Assistant. In development, not for sale yet.">
+<meta name="theme-color" content="#121315">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23121315'/%3E%3Cg fill='none' stroke='%232bb3a0' stroke-width='9.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 47 L50 15 L87 47 V86 H13 Z'/%3E%3Cpath d='M39 40 V74'/%3E%3Cpath d='M39 59 L62 40'/%3E%3Cpath d='M46 53 L63 74'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="canonical" href="https://kinhaushome.com/node.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kinhaushome.com/node.html">
+<meta property="og:title" content="Node · Kinhaus">
+<meta property="og:description" content="The Kinhaus Node: a room device with mmWave presence, climate sensing, a halo light, battery backup and optional local voice. Works with Home Assistant. In development, not for sale yet.">
+<meta property="og:image" content="https://kinhaushome.com/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kinhaus Node render in deep charcoal beside the Kinhaus wordmark">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Kinhaus home"><svg viewBox="0 0 100 100" fill="none" stroke="var(--teal)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 47 L50 15 L87 47 V86 H13 Z"/><path d="M39 40 V74"/><path d="M39 59 L62 40"/><path d="M46 53 L63 74"/></svg><span>KINHAUS</span></a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="node.html" aria-current="page">Node</a></li><li><a href="hub.html">Hub</a></li><li><a href="pledges.html">Pledges</a></li><li><a href="pilot.html">Pilot</a></li><li><a href="survey.html">Survey</a></li><li><a href="results.html">Results</a></li><li><a href="support.html">Support</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a class="ext" href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Forum</a></li></ul></nav>
+    <a class="btn" href="support.html#waitlist">Join the waitlist</a>
+    <details class="menu"><summary aria-label="Open menu">Menu</summary><nav class="panel-nav" aria-label="Main"><a href="index.html">Home</a><a href="node.html" aria-current="page">Node</a><a href="hub.html">Hub</a><a href="pledges.html">Pledges</a><a href="pilot.html">Pilot</a><a href="survey.html">Survey</a><a href="results.html">Results</a><a href="support.html">Support</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Community forum ↗</a><a class="btn" href="support.html#waitlist">Join the waitlist</a></nav></details>
+  </div>
+</header>
+<main id="main">
+<section id="node" style="border-top:0">
+    <div class="wrap">
+      <p class="eyebrow">Room device · <span class="chip now">Prototypes in testing</span></p>
+      <h1 style="font-size:clamp(38px,5.6vw,66px);font-weight:900;letter-spacing:-0.04em;margin-block:14px 16px">The Kinhaus Node</h1>
+      <p class="lede">One per room. A low, faceted saucer that reads as part of the wall until its halo wakes up, and knows who's actually in the room.</p>
+      <div class="anatomy">
+        <figure>
+          <img src="img/ov2-side.webp" alt="Side view of the Kinhaus Node showing the slim saucer profile and the clear halo ring at its widest edge" width="1200" height="900" loading="lazy">
+          <figcaption>Side view: the halo ring sits at the saucer's widest edge</figcaption>
+        </figure>
+        <div class="features">
+          <div class="feature"><span class="spec">24 GHz mmWave radar</span><h3>Real presence</h3><p>Knows you're still there while you read or sleep. Senses that someone is present, never who.</p></div>
+          <div class="feature"><span class="spec">Temp · humidity · dew point</span><h3>Reads the air</h3><p>Heating and fans follow the room you're in, not a hallway thermostat.</p></div>
+          <div class="feature"><span class="spec">Full-color halo</span><h3>Light with meaning</h3><p>Status, alerts and a soft night light from one clear ring.</p></div>
+          <div class="feature"><span class="spec">Battery backup</span><h3>Rides through blips</h3><p>A rechargeable cell keeps it running through short power cuts.</p></div>
+          <div class="feature"><span class="spec">Local mesh</span><h3>Rooms that cooperate</h3><p>Nodes talk to each other directly, with no internet in the loop.</p></div>
+          <div class="feature"><span class="spec">ESPHome · Home Assistant</span><h3>Adopt in one click</h3><p>Open firmware. Home Assistant finds it and you name the room.</p></div>
+        </div>
+      </div>
+      <div class="dims"><span><b>92 × 95 × 25 mm</b> about the size of a coaster</span><span><b>Deep charcoal</b> or <b>warm off-white</b></span><span><b>Keyhole</b> wall mount · <b>USB-C</b> power</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Two models</th><th scope="col">Node</th><th scope="col">Node Voice</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">mmWave presence</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Temperature and humidity</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Halo and status lights</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Battery backup</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Microphone</th><td>Sound level only</td><td class="yes">Voice, local wake word</td></tr>
+            <tr><th scope="row">Speaker</th><td class="no">No</td><td class="yes">Yes, Home Assistant voice satellite</td></tr>
+            <tr><th scope="row">Camera</th><td class="no">None</td><td class="no">None</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section><section>
+    <div class="wrap">
+      <p class="eyebrow">Setup</p>
+      <h2>On the wall in minutes</h2>
+      <p class="lede">No app to download and no account to make. If you run Home Assistant, you already have what you need.</p>
+      <ol class="steps">
+        <li><h3>Hang it</h3><p>Two screws, a keyhole mount and a USB-C cable. No electrician, renter-friendly.</p></li>
+        <li><h3>Adopt it</h3><p>Home Assistant finds the Node on your network and gives it its own key. Tell it which room it's in.</p></li>
+        <li><h3>Live with it</h3><p>Lights, climate and voice start following who is actually in each room.</p></li>
+      </ol>
+      <a class="morelink" href="pilot.html">Want one in your home first? Apply to the pilot →</a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span class="brand"><svg viewBox="0 0 100 100" fill="none" stroke="var(--teal)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:22px;height:22px"><path d="M13 47 L50 15 L87 47 V86 H13 Z"/><path d="M39 40 V74"/><path d="M39 59 L62 40"/><path d="M46 53 L63 74"/></svg><span style="font-size:15px">KINHAUS</span></span>
+      <span>© 2026 Kinhaus · Chico, California</span>
+    </div>
+    <nav class="flinks" aria-label="Footer"><a href="index.html">Home</a><a href="node.html">Node</a><a href="hub.html">Hub</a><a href="pledges.html">Pledges</a><a href="pilot.html">Pilot</a><a href="survey.html">Survey</a><a href="results.html">Results</a><a href="support.html">Support</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="https://github.com/AceWood619/kinhaus-site/discussions" target="_blank" rel="noopener">Forum ↗</a><a href="https://x.com/kinhaushome" target="_blank" rel="noopener">X @kinhaushome ↗</a><a href="privacy.html">Privacy</a><a href="pilot-terms.html">Pilot terms</a><a href="pledges.html#security">Report a security problem</a></nav>
+    <small>Privacy: this website sets no cookies and uses no analytics, ads or tracking scripts. We only get what you send us, such as your email if you join the waitlist. <a href="privacy.html">Privacy and waitlist terms</a></small>
+    <small>Kinhaus products are in development and not for sale. Images are renders of prototype designs; features, specifications and appearance may change before release. Pledges apply to products once sold. Home Assistant is a trademark of its owner. NVIDIA and Jetson are trademarks of NVIDIA Corporation. Kinhaus is not affiliated with or endorsed by either. Support payments are gifts to a for-profit company and are not tax-deductible.</small>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
