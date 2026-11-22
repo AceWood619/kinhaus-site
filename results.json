@@ -1,7 +1,81 @@
 {
-  "updated": "November 21, 2026",
-  "responses": 0,
-  "questions": [],
+  "updated": "November 22, 2026",
+  "responses": 1,
+  "questions": [
+    {
+      "label": "How interested are you in a Kinhaus home?",
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "multi": false
+    },
+    {
+      "label": "Which device interests you most?",
+      "counts": {
+        "Node": 0,
+        "Node Voice": 1,
+        "Hub": 0,
+        "All of them": 0,
+        "Not sure": 0
+      },
+      "multi": false
+    },
+    {
+      "label": "Which features excite you most?",
+      "counts": {
+        "Presence that knows you are still there": 0,
+        "Climate by room": 0,
+        "Local voice control": 1,
+        "Private AI assistant on the Hub": 0,
+        "Works with no internet": 0,
+        "No subscription": 0,
+        "Halo light and night light": 0,
+        "Battery backup": 0,
+        "Air quality sensing": 0,
+        "TV video calls with privacy shutter": 0
+      },
+      "multi": true
+    },
+    {
+      "label": "What would stop you from buying one?",
+      "counts": {
+        "Price": 1,
+        "Needs Home Assistant": 0,
+        "Setup looks hard": 0,
+        "Not sure I trust it": 0,
+        "Looks or size": 0,
+        "I already have something": 0,
+        "Nothing would stop me": 0
+      },
+      "multi": true
+    },
+    {
+      "label": "What feels like a fair price for one Node?",
+      "counts": {
+        "Under $50": 0,
+        "$50 to $79": 1,
+        "$80 to $119": 0,
+        "$120 to $159": 0,
+        "$160 or more": 0,
+        "Not sure": 0
+      },
+      "multi": false
+    },
+    {
+      "label": "Do you run Home Assistant?",
+      "counts": {
+        "Yes": 1,
+        "Not yet, but I would": 0,
+        "No": 0,
+        "What is that?": 0
+      },
+      "multi": false
+    }
+  ],
   "quotes": [],
   "changes": []
 }
